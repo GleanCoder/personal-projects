@@ -1,0 +1,172 @@
+@media (max-width: 84em) {
+  .container {
+    max-width: 100%;
+  }
+  .s1-gif {
+    max-width: 445px;
+    height: 255px;
+  }
+  .download-box {
+    padding: 0.2rem 6.4rem;
+  }
+
+  .s3-gif {
+    width: 379px;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .s3-gif {
+    width: 359px;
+  }
+}
+
+@media (max-width: 64em) {
+  .download-box {
+    left: 15%;
+  }
+  .s3-gif {
+    width: 30.5rem;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+  .heading-description {
+    font-size: 2rem;
+  }
+  .s1-gif {
+    height: 155px;
+  }
+  .download-box {
+    padding: 0.2rem 4.8rem;
+    left: 12%;
+  }
+  .s3-gif {
+    width: 225px;
+  }
+}
+
+@media (max-width: 27em) {
+  .logo img {
+    height: 6.2rem;
+  }
+  .navbar img {
+    width: 1.2rem;
+  }
+  select {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.4rem;
+  }
+  .nav-btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+  }
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+  .get-started-lable {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .get-started-box {
+    flex-direction: column;
+  }
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+  .image-box:nth-child(2) {
+    order: -1;
+  }
+  .download-box {
+    left: 14%;
+  }
+  .s3-gif {
+    width: 235px;
+  }
+  .text-box {
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  .col-rows {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+  }
+}
+@media (max-width: 25em) {
+  .s3-gif {
+    width: 215px;
+  }
+}
+
+@media (max-width: 24em) {
+  .download-box {
+    padding: 0.2rem 2rem;
+    top: 65%;
+    left: 15%;
+  }
+  .s3-gif {
+    width: 200px;
+  }
+  .faq-heading {
+    font-size: 3rem;
+  }
+  .accordian {
+    padding: 0.2rem 1.2rem;
+  }
+  .question,
+  .answer {
+    font-size: 1.4rem;
+  }
+  .cross-icon {
+    font-size: 2.4rem;
+    margin-left: 2.4rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .section-hero {
+    background-size: cover;
+  }
+  .logo img {
+    height: 4.8rem;
+  }
+  .navbar img {
+    width: 1rem;
+  }
+  select {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+  .nav-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .hero-subheading {
+    font-size: 2rem;
+  }
+  .email-input {
+    font-size: 1.4rem;
+    padding: 1.6rem 6.4rem;
+  }
+  .download-box {
+    padding: 0.2rem 3.2rem;
+    left: 5%;
+    top: 63%;
+  }
+  .s3-gif {
+    width: 170px;
+  }
+  .question,
+  .answer {
+    font-size: 1.2rem;
+  }
+}
